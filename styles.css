@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
+    text-align: center;
 }
 
 .navbar {
@@ -18,6 +19,10 @@ body {
     z-index: 1000;
 }
 
+.nav-links {
+    display: flex;
+}
+
 .nav-links a {
     text-decoration: none;
     color: #000;
@@ -31,11 +36,55 @@ body {
 }
 
 .container {
-    padding: 100px 20px;
+    padding: 120px 20px;
+    max-width: 900px;
+    margin: auto;
 }
 
-.contact-info, .contact-form, .contact-image, .map-container {
-    margin-bottom: 20px;
+.content {
+    text-align: left;
+}
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.contact-details {
+    max-width: 50%;
+    padding-left: 30px;
+}
+
+.contact-details h2 {
+    font-size: 24px;
+}
+
+.contact-details p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.map-container {
+    margin-top: 40px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+.map-description {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 .footer {
